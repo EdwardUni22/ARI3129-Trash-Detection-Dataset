@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Mixed -Black-', 'Organic -White-', 'Other', 'Recyclable -Grey-']
+
+roboflow:
+  workspace: ari3129-group-project
+  project: trash-detection-zia5b
+  version: 12
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ari3129-group-project/trash-detection-zia5b/dataset/12
